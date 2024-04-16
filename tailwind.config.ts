@@ -8,6 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        manrope: ["var(--font-manrope)"],
+        fraunces: ["var(--font-fraunces)"],
+      },
+      colors: {
+        dark_purple: "#24053E",
+        ghost_white: "#FCF8FF",
+        eucalyptus: "#44FFA1",
+        davy_grey: "#584D62",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
