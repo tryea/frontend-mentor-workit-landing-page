@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex flex-1 flex-col overscroll-none overflow-hidden bg-white">
       <div
-        className={`w-full aspect-[375.3/481.71] z-10 bg-ghost_white relative bg-[url('/images/bg-container-mobile-dark-purple.svg')] sm:bg-[url('/images/bg-container-tablet-dark-purple.svg')] sm:aspect-[768/540.24] bg-no-repeat bg-cover`}
+        className={`w-full aspect-[375.3/481.71] z-10 bg-ghost_white relative bg-[url('/images/bg-container-mobile-dark-purple.svg')] md:bg-[url('/images/bg-container-tablet-dark-purple.svg')] md:aspect-[768/540.24] bg-no-repeat bg-cover`}
       >
         <div className="mt-8 flex flex-row justify-between px-4 items-center">
           <div className="relative w-[95.76px] h-[24.61px]">
@@ -15,8 +15,8 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="mt-16 px-4 items-center flex flex-col w-full gap-10 sm:px-[98px] sm:mt-14">
-          <h1 className="font-fraunces font-semibold text-[50px] sm:text-[60px] leading-none text-center text-white">
+        <div className="mt-16 px-4 items-center flex flex-col w-full gap-10 md:px-[98px] md:mt-14">
+          <h1 className="font-fraunces font-semibold text-[50px] md:text-[60px] leading-none text-center text-white">
             Data tailored to your needs.
           </h1>
           <button
@@ -27,20 +27,20 @@ export default function Home() {
           </button>
         </div>
 
-        <div className="hidden sm:block absolute z-10 left-[-228px] bottom-[152px] w-[341px] h-[317px]">
+        <div className="hidden md:block absolute z-10 left-[-228px] bottom-[152px] w-[341px] h-[317px]">
           <Image src={"/images/bg-pattern-1.svg"} alt="phone" fill />
         </div>
 
-        <div className="hidden sm:block absolute z-10 right-[-95px] bottom-[110px] w-[174px] h-[181px]">
+        <div className="hidden md:block absolute z-10 right-[-95px] bottom-[110px] w-[174px] h-[181px]">
           <Image src={"/images/bg-pattern-2.svg"} alt="phone" fill />
         </div>
 
-        <div className="absolute z-20 w-[320px] h-[184px] bottom-[-91px] right-[16px] sm:right-[103px] sm:bottom-[-148px] sm:w-[514px] sm:h-[296px]">
+        <div className="absolute z-20 w-[320px] h-[184px] bottom-[-91px] right-[16px] md:right-[103px] md:bottom-[-148px] md:w-[514px] md:h-[296px]">
           <Image src={"/images/image-hero.webp"} alt="phone" fill />
         </div>
       </div>
       <div
-        className={`px-4 sm:px-[98px] w-full pt-[245px] sm:pt-[341px] sm:mt-[-137px] z-0 mt-[-90px] pb-[72px] flex flex-col gap-10 sm:gap-12 aspect-[375.3/1070.71] bg-white relative bg-[url('/images/bg-container-mobile-ghost-white.svg')] sm:bg-[url('/images/bg-container-tablet-ghost-white.svg')] sm:aspect-[768/920.73] bg-no-repeat bg-cover`}
+        className={`px-4 md:px-[98px] w-full pt-[245px] md:pt-[341px] md:mt-[-137px] z-0 mt-[-90px] pb-[72px] flex flex-col gap-10 md:gap-12 aspect-[375.3/1070.71] bg-white relative bg-[url('/images/bg-container-mobile-ghost-white.svg')] md:bg-[url('/images/bg-container-tablet-ghost-white.svg')] md:aspect-[768/920.73] bg-no-repeat bg-cover`}
       >
         {[
           {
@@ -65,16 +65,16 @@ export default function Home() {
           return (
             <div
               key={step.no}
-              className="flex flex-col items-center gap-6 sm:gap-8 sm:flex-row"
+              className="flex flex-col items-center gap-6 md:gap-8 md:flex-row"
             >
               <div className="w-12 h-12 rounded-full border border-davy_grey text-dark_purple flex shrink-0 items-center justify-center font-fraunces text-xl leading-[2.25rem] font-semibold">
                 {step.no}
               </div>
-              <div className="flex flex-col gap-4 sm:items-start items-center">
+              <div className="flex flex-col gap-4 md:items-start items-center">
                 <h3 className="text-[28px] leading-[36px] font-fraunces text-center text-dark_purple font-semibold">
                   {step.title}
                 </h3>
-                <p className="font-manrope font-normal text-base leading-[28px] text-center sm:text-left text-davy_grey">
+                <p className="font-manrope font-normal text-base leading-[28px] text-center md:text-left text-davy_grey">
                   {step.content}
                 </p>
               </div>
@@ -82,20 +82,20 @@ export default function Home() {
           );
         })}
       </div>
-      <div className="mt-[100px] px-4 sm:px-10">
+      <div className="mt-[100px] px-4 md:px-10">
         <div className="w-full h-fit relative">
-          <div className="w-full aspect-square rounded-full relative z-10 sm:w-[281px] sm:h-[281px]">
+          <div className="w-full aspect-square rounded-full relative z-10 md:w-[281px] md:h-[281px]">
             <Image
               src={"/images/image-founder.webp"}
               fill
               alt="founder-photo"
             />
           </div>
-          <div className="relative z-20 mt-[-64px] w-full text-white bg-dark_purple p-8 flex flex-col items-center sm:w-[514px] sm:ml-[175px] sm:mt-[-130px] sm:items-start sm:text-left">
-            <h5 className="font-fraunces font-semibold text-[32px] leading-[48px] text-center sm:text-[48px] sm:leading-[56px]">
+          <div className="relative z-20 mt-[-64px] w-full text-white bg-dark_purple p-8 flex flex-col items-center md:w-[514px] md:ml-[175px] md:mt-[-130px] md:items-start md:text-left">
+            <h5 className="font-fraunces font-semibold text-[32px] leading-[48px] text-center md:text-[48px] md:leading-[56px]">
               Be the first to test
             </h5>
-            <p className="mt-4 text-base leading-[28px] font-normal font-manrope text-center sm:text-left">
+            <p className="mt-4 text-base leading-[28px] font-normal font-manrope text-center md:text-left">
               {`Hi, I'm Louis Graham, the founder of the company. Book a demo call
               with me to become a beta tester for our app and kickstart your
               company. Apply for access below and I'll be in touch to schedule a
@@ -107,14 +107,14 @@ export default function Home() {
             >
               Apply for access
             </button>
-            <div className="hidden sm:block absolute w-[221px] h-[212px] right-[11px] bottom-[-106px]">
+            <div className="hidden md:block absolute w-[221px] h-[212px] right-[11px] bottom-[-106px]">
               <Image src={"/images/bg-pattern-3.svg"} alt="phone" fill />
             </div>
           </div>
         </div>
       </div>
 
-      <div className="relative flex flex-col mt-[138px] pb-[64px] sm:pb-[122px] sm:mt-[210px] w-full gap-[58px] items-center">
+      <div className="relative flex flex-col mt-[138px] pb-[64px] md:pb-[122px] md:mt-[210px] w-full gap-[58px] items-center">
         <div className="relative w-[95.76px] h-[24.61px]">
           <Image src={"/images/logo-dark.svg"} fill alt="dark-brand" />
         </div>
