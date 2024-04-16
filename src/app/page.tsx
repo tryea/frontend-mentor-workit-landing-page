@@ -10,14 +10,18 @@ export default function Home() {
           <div className="relative w-[95.76px] h-[24.61px]">
             <Image src={"/images/logo-light.svg"} fill alt="brand logo" />
           </div>
-          <p className="text-base leading-loose tracking-[-0.16px] font-bold font-manrope border-b-[3px] border-b-eucalyptus text-white">
+          <p className="text-base leading-loose tracking-[-0.16px] font-bold font-manrope border-b-[3px] border-b-eucalyptus text-white hover:text-eucalyptus cursor-pointer">
             Apply for access
           </p>
         </div>
 
         <div className="mt-16 px-4 items-center flex flex-col w-full gap-10 lg:gap-9 md:px-[98px] md:mt-14 lg:px-[402px] lg:mt-[55px]">
           <h1 className="font-fraunces font-semibold text-[50px] md:text-[60px] lg:text-[80px] leading-none text-center text-white">
-            Data tailored to your needs.
+            Data{" "}
+            <span className="underline decoration-[3px] underline-offset-[10px] decoration-eucalyptus ">
+              tailored
+            </span>{" "}
+            to your needs.
           </h1>
           <button
             type="button"
