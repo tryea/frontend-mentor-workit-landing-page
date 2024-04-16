@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <main className="flex flex-1 flex-col overscroll-none overflow-hidden bg-white">
       <div
-        className={`w-full aspect-[375.3/481.71] z-10 bg-ghost_white relative bg-[url('/images/bg-container-mobile-dark-purple.svg')] md:bg-[url('/images/bg-container-tablet-dark-purple.svg')] md:aspect-[768/540.24] bg-no-repeat bg-cover`}
+        className={`w-full aspect-[375.3/481.71] z-10 bg-ghost_white relative bg-[url('/images/bg-container-mobile-dark-purple.svg')] md:bg-[url('/images/bg-container-tablet-dark-purple.svg')] md:aspect-[768/540.24] bg-no-repeat bg-cover lg`}
       >
-        <div className="mt-8 flex flex-row justify-between px-4 items-center">
+        <div className="mt-8 flex flex-row justify-between px-4 items-center md:px-10">
           <div className="relative w-[95.76px] h-[24.61px]">
             <Image src={"/images/logo-light.svg"} fill alt="brand logo" />
           </div>
